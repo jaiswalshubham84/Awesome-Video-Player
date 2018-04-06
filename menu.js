@@ -192,9 +192,6 @@ const template = [
         role: "reload"
       },
       {
-        role: "toggledevtools"
-      },
-      {
         type: "separator"
       },
       {
