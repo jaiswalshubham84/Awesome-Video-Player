@@ -1,0 +1,59 @@
+{
+  "name": "Awesome",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.yourapp.id",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "build/icon.ico"
+    }
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.8.2",
+    "electron-builder": "^20.5.1"
+  },
+  "dependencies": {
+    "blob-to-buffer": "^1.2.7",
+    "m3u8stream": "^0.2.2",
+    "mp4-convert": "^1.0.2",
+    "srt-to-vtt": "^1.1.1",
+    "ytdl-core": "^0.20.2"
+  }
+}

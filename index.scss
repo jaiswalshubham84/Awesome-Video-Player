@@ -1,0 +1,248 @@
+.fa-pause-circle {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-fast-backward {
+  cursor: pointer !important;
+}
+
+.fa-fast-forward {
+  cursor: pointer !important;
+}
+
+.fa-volume-up {
+  cursor: pointer;
+}
+
+.fa-volume-off {
+  cursor: pointer;
+}
+
+.fas {
+  color: white;
+  cursor: pointer;
+}
+
+.fa-play {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-closed-captioning {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#control {
+  width: 95% !important;
+  position: absolute;
+  bottom: 0;
+  margin-left: 2.5%;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  border-radius: 5px; // transition: opacity 6600ms, visibility 6600ms;
+}
+
+.m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 2000ms, opacity 2000ms;
+}
+
+.m-fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#vidiotag {
+  height: calc(100% - 65px);
+}
+
+#vidio {
+  width: 95%;
+  max-height: 95%;
+  max-width: 95%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#vidiotime {
+  color: #b7adad;
+  font-size: 14px;
+  float: right;
+  margin-top: -1px;
+}
+
+body {
+  height: 100% !important;
+  min-width: 50%;
+  background: black;
+}
+
+html {
+  height: 100%;
+  min-width: 50%;
+}
+
+#container {
+  height: 100%;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.seekbar {
+  text-align: center;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+#volume {
+  -webkit-appearance: none;
+  background-color: #31a357;
+  width: 70px;
+  height: 3px;
+  border-radius: 0px;
+  margin: 0px !important;
+  cursor: pointer;
+}
+
+#volume-seek-bar {
+  float: right;
+  cursor: pointer;
+  margin-top: -26px;
+}
+
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #31a357;
+  opacity: 1;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+}
+
+#volume:focus {
+  outline: none;
+}
+
+#seek-bar {
+  -webkit-appearance: none;
+  background: #727374;
+  height: 3px;
+  width: 100%;
+  margin: 0px !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #31a357;
+  opacity: 1;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+}
+
+#seek-bar:focus {
+  outline: none;
+}
+
+.mediacontrol {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(230, 230, 230, 0.8);
+  margin-top: 17px;
+  padding-right: 0px !important;
+}
+
+.volume {
+  float: right;
+  width: 20px;
+  margin-right: 80px;
+  font-size: 20px;
+  color: rgba(230, 230, 230, 0.8);
+}
+
+.play {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 30px;
+  display: inline-block;
+}
+
+.fa-file-video {
+  float: left;
+  margin-right: 2%;
+  cursor: pointer;
+}
+#fileName {
+  float: left;
+  margin-right: 8%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+video::cue {
+  opacity: 1;
+  background-color: #000000;
+  font-size: 20px !important;
+  color: #ffffff !important;
+  overflow: visible !important;
+}
+
+video::-webkit-media-text-track-container {
+  overflow: visible !important;
+  margin-top: 20px !important;
+  transform: translateY(7%) !important;
+}
+
+// .facebook-responsive {
+//     overflow: hidden;
+//     padding-bottom: 56.25%;
+//     position: relative;
+//     height: 0;
+// }
+// #links {
+//     width: 100%;
+// }
+// .facebook-responsive iframe {
+//     left: 0;
+//     top: 0;
+//     width: 90%;
+//     $x: width;
+//     position: absolute;
+//     height: $x * 0.45;
+// }
+.hidden {
+  display: none;
+}
+
+#linkss {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#embedlink {
+  width: 95%;
+  height: 95%;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
