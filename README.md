@@ -12,7 +12,7 @@ A basic Electron application needs just these files:
 - `index.html` - A web page to render. This is the app's **renderer process**.
 - `mainFunction.js` - Contains all the player functionalities.
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
+You can learn more about each of these components within the [Electron Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
 ## To Use
 
@@ -22,7 +22,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 # Clone this repository
 git clone https://github.com/jaiswalshubham84/Awesome-Video-Player.git
 # Go into the repository
-cd electron-quick-start
+cd Awesome-Video-Player
 # Install dependencies
 npm install
 # Run the app
@@ -42,6 +42,8 @@ npm start
  -  Chromecast Support
  -  Add other video format support
 
+## Feel free to raise an issue
+ - contact(gmail) - jaiswal.shubham84@gmail.com 
 
 
 ## License
